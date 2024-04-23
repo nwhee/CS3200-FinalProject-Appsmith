@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Customers",
+    "pageId": "AuthorPage",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -50,7 +50,7 @@
     "userPermissions": [],
     "createdAt": "2024-04-23T02:54:50Z"
   },
-  "id": "Customers_Authors",
+  "id": "AuthorPage_Authors",
   "deleted": false,
   "gitSyncId": "662722ad1b28ed63e9c99d22_662722fa1b28ed63e9c99d25"
 }

@@ -1,46 +1,34 @@
 {
   "unpublishedPage": {
-    "name": "Customers",
-    "slug": "customers",
+    "name": "AuthorSearchPage",
+    "slug": "authorsearchpage",
     "layouts": [
       {
         "viewMode": false,
         "dsl": {
           "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 4896,
+          "rightColumn": 1224,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
+          "bottomRow": 380,
           "containerStyle": "none",
-          "bottomRow": 420,
-          "snapRows": 124,
+          "snapRows": 86,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 89,
-          "minHeight": 1292,
-          "dynamicTriggerPathList": [],
+          "minHeight": 880,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "Customers_Authors",
-              "name": "Authors",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
+        "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Customers",
+        "id": "AuthorSearchPage",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -51,5 +39,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "66270ab77fcf650e70394f0e_66270ab77fcf650e70394f10"
+  "gitSyncId": "6627260b1b28ed63e9c99d2b_66273b63687fe44cb9176da1"
 }

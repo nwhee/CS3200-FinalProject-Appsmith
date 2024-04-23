@@ -18,7 +18,7 @@
         {"key": "primaryColumns.LastName.computedValue"}
     ],
     "needsHeightForContent": true,
-    "leftColumn": 12,
+    "leftColumn": 2,
     "delimiter": ",",
     "defaultSelectedRowIndex": 0,
     "flexVerticalAlignment": "start",
@@ -58,10 +58,11 @@
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "columnUpdatedAt": 1713843208739,
+    "primaryColumnId": "AuthorID",
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
     "mobileBottomRow": 42,
-    "widgetName": "Table1",
+    "widgetName": "Author",
     "defaultPageSize": 0,
     "columnOrder": [
         "AuthorID",
@@ -80,7 +81,7 @@
     "borderWidth": "1",
     "primaryColumns": {
         "AuthorID": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"AuthorID\"]))}}",
+            "computedValue": "{{Author.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"AuthorID\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "AuthorID",
@@ -111,7 +112,7 @@
             "verticalAlignment": "CENTER"
         },
         "FirstName": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"FirstName\"]))}}",
+            "computedValue": "{{Author.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"FirstName\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "FirstName",
@@ -142,7 +143,7 @@
             "verticalAlignment": "CENTER"
         },
         "LastName": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"LastName\"]))}}",
+            "computedValue": "{{Author.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"LastName\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "LastName",
@@ -176,7 +177,7 @@
     "key": "hp4t3u6l6q",
     "canFreezeColumn": true,
     "isDeprecated": false,
-    "rightColumn": 46,
+    "rightColumn": 36,
     "textSize": "0.875rem",
     "thumbnailSVG": "/static/media/thumbnail.d0492f06681daa69baf92b07d3829dfc.svg",
     "widgetId": "zlgjnskj7a",

@@ -1,7 +1,11 @@
 {
   "pages": [
     {
-      "id": "Customers",
+      "id": "AuthorSearchPage",
+      "isDefault": false
+    },
+    {
+      "id": "AuthorPage",
       "isDefault": true
     }
   ],
@@ -15,7 +19,11 @@
   },
   "color": "#F3F1C7",
   "icon": "globe",
-  "unpublishedCustomJSLibs": [],
+  "unpublishedCustomJSLibs": [
+    {
+      "uidString": "xmlParser_https://cdnjs.cloudflare.com/ajax/libs/fast-xml-parser/3.17.5/parser.min.js"
+    }
+  ],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
   "applicationVersion": 2,
