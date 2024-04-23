@@ -6,14 +6,22 @@
     },
     {
       "id": "AuthorSearchPage",
-      "isDefault": false
-    },
-    {
-      "id": "ProfilePage",
       "isDefault": true
     },
     {
+      "id": "ProfilePage",
+      "isDefault": false
+    },
+    {
       "id": "BookPage",
+      "isDefault": false
+    },
+    {
+      "id": "SpecificBookPage",
+      "isDefault": false
+    },
+    {
+      "id": "Order",
       "isDefault": false
     }
   ],
