@@ -14,7 +14,7 @@
           "widgetId": "0",
           "topRow": 0,
           "containerStyle": "none",
-          "bottomRow": 380,
+          "bottomRow": 420,
           "snapRows": 124,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
@@ -26,7 +26,18 @@
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
-        "layoutOnLoadActions": [],
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Customers_Authors",
+              "name": "Authors",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "Customers",
