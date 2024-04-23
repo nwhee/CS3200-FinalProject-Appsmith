@@ -4,7 +4,7 @@
     "mobileBottomRow": 5,
     "widgetName": "btn_newDeliveryAgent",
     "onClick": "{{showModal('mdl_newCustomer');}}",
-    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "buttonColor": "#15803d",
     "displayName": "Button",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
     "searchTags": [
@@ -20,11 +20,8 @@
     "animateLoading": true,
     "parentColumnSpace": 16.6875,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 49,
-    "dynamicBindingPathList": [
-        {"key": "buttonColor"},
-        {"key": "borderRadius"}
-    ],
+    "leftColumn": 51,
+    "dynamicBindingPathList": [{"key": "borderRadius"}],
     "text": "New Book",
     "isDisabled": false,
     "key": "sbwh0di96x",
