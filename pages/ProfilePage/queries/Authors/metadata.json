@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "AuthorPage",
+    "pageId": "ProfilePage",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -38,7 +38,7 @@
         "apiContentType": "none"
       }
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
@@ -50,7 +50,7 @@
     "userPermissions": [],
     "createdAt": "2024-04-23T02:54:50Z"
   },
-  "id": "AuthorPage_Authors",
+  "id": "ProfilePage_Authors",
   "deleted": false,
   "gitSyncId": "662722ad1b28ed63e9c99d22_662722fa1b28ed63e9c99d25"
 }

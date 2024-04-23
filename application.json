@@ -1,11 +1,15 @@
 {
   "pages": [
     {
+      "id": "EmployeeBooksPage",
+      "isDefault": false
+    },
+    {
       "id": "AuthorSearchPage",
       "isDefault": false
     },
     {
-      "id": "AuthorPage",
+      "id": "ProfilePage",
       "isDefault": true
     },
     {

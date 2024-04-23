@@ -36,6 +36,14 @@
               "timeoutInMillisecond": 10000
             },
             {
+              "id": "BookPage_InStockBooks",
+              "name": "InStockBooks",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
               "id": "BookPage_OnSaleBooks",
               "name": "OnSaleBooks",
               "confirmBeforeExecute": false,
