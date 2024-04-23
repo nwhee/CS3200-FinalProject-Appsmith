@@ -4,7 +4,9 @@
     "boxShadow": "none",
     "mobileBottomRow": 5,
     "widgetName": "Button2",
+    "onClick": "{{showModal('mdl_newCustomer');}}",
     "buttonColor": "#ef4444",
+    "dynamicPropertyPathList": [],
     "displayName": "Button",
     "iconSVG": "/static/media/icon.cb7371e9a48acf9db0f2f3ea0a714255.svg",
     "searchTags": [
@@ -19,7 +21,7 @@
     "mobileRightColumn": 49,
     "animateLoading": true,
     "parentColumnSpace": 12.359375,
-    "dynamicTriggerPathList": [],
+    "dynamicTriggerPathList": [{"key": "onClick"}],
     "leftColumn": 41,
     "dynamicBindingPathList": [{"key": "borderRadius"}],
     "text": "Delete Book",

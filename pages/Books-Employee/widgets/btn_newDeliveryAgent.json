@@ -5,6 +5,7 @@
     "widgetName": "btn_newDeliveryAgent",
     "onClick": "{{showModal('mdl_newCustomer');}}",
     "buttonColor": "#15803d",
+    "dynamicPropertyPathList": [],
     "displayName": "Button",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
     "searchTags": [
