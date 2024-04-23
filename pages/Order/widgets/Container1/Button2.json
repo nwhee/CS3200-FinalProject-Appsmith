@@ -4,7 +4,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 4,
     "widgetName": "Button2",
-    "onClick": "{{navigateTo('ProfilePage');}}",
+    "onClick": "{{navigateTo('Profile');}}",
     "buttonColor": "#22c55e",
     "dynamicPropertyPathList": [],
     "displayName": "Button",
