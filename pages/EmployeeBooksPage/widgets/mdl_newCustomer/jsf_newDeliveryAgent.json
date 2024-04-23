@@ -152,7 +152,7 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 52,
+    "originalBottomRow": 110,
     "useSourceData": false,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
@@ -435,7 +435,6 @@
                 "iconAlign": "left",
                 "position": 7,
                 "isDisabled": false,
-                "sourceData": null,
                 "fieldType": "Text Input"
             }
         },
@@ -482,7 +481,7 @@
     "parentColumnSpace": 6.9375,
     "dynamicTriggerPathList": [{"key": "onSubmit"}],
     "borderWidth": "1",
-    "sourceData": "{{tbl_userInfo.selectedRow}}",
+    "sourceData": "{{tbl_userInfo.}}",
     "resetButtonLabel": "Reset",
     "key": "lu2obufagw",
     "backgroundColor": "#fff",
